@@ -1,0 +1,223 @@
+:root {
+    --Font-Color: #4b80d6;
+}
+
+html {
+    background-color: #588bae;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+/* Page One Layout */
+
+#getStarted {
+    border: 5px solid var(--Font-Color);
+    background-color: #bf0a30;
+    border-radius: 1.5rem;
+    outline: none;
+    text-align: center;
+    /* font layout */
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: var(--Font-Color);
+    margin-top: 200px;
+    padding: 15px 30px 15px 30px;
+    transition: 3s;
+    /*  */
+}
+
+
+/* 
+@keyframes fadeIn {
+    100% {
+        transform: scaleY(-100%);
+    }
+} */
+
+
+/* 
+#getStarted:active {
+    animation: rotate 1;
+    animation: fadeIn 1 linear;
+} */
+
+
+/* @keyframes rotate {
+    50% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+} */
+
+
+/* Page Two Layout */
+
+#voting_Wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#voting_Wrapper h1 {
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+#president_Card_Wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#Nixion_Card,
+#McGovern {
+    background-color: lightblue;
+    border: 5px solid black;
+    border-radius: 1.5rem;
+    padding: 15px;
+    height: 458.24px;
+    width: 290px;
+    transition: animation 2s;
+    flex-flow: column nowrap;
+    text-align: center;
+    margin: 10px;
+}
+
+#NixionBackCard,
+#NixionFrountCard {
+    height: 458.24px;
+    width: 290px;
+}
+
+#NixonFrountCard img,
+#McGovernFrountCard img {
+    /* margin-right: auto;
+    margin-left: auto; */
+    height: 300px;
+    width: 250px;
+    border-radius: 0.5rem;
+}
+
+#NixionBackCard button,
+#McGovernBackCard button {
+    font-size: 32px;
+    font-weight: 600;
+    background-color: var(--Font-Color);
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    width: fit-content;
+    height: fit-content;
+    margin-top: calc(458.24px / 3);
+}
+
+#mistake_div {
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 200px auto;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#mistake_div p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 10px 20px 10px;
+}
+
+#correct_div {
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: cornflowerblue;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+#correct_div p {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+#match {
+    display: flex;
+    flex-flow: wrap;
+    width: 87px;
+    margin: auto;
+    /* Center the letter vertical inside the div */
+    line-height: 25px;
+}
+
+#match div {
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 16px;
+    color: #1c84c4;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#game {
+    padding-top: 15px;
+    display: flex;
+    flex-flow: wrap;
+    width: 330px;
+    margin: auto;
+    /* Center the letter vertical inside the div */
+    line-height: 100px;
+}
+
+#game div {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 64px;
+    color: #1c84c4;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#done {
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    background-color: rgb(149, 204, 223);
+    padding: 5px;
+    width: fit-content;
+    outline: none;
+    margin: 10px 320px 0 320px;
+    text-align: center;
+}
